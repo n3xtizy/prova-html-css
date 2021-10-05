@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+}
+
+header {
+    height: calc(100vh - 150px);
+    background: url(../img/IT-TMS-busca-sistema-TMS-ERP.jpg);
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+nav {
+    background-color: #343434;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+}
+
+.logo {
+    float: left;
+    display: block;
+    padding: 14px 16px;
+}
+
+nav a {
+    color: #fff;
+    float: right;
+    text-decoration: none;
+    display: block;
+    padding: 30px 20px;
+}
+
+.conteudo {
+    max-width: 400px;
+    margin: 150px auto;
+    text-align: center;
+    color: #000;
+}
+
+.conteudo h1 {
+    margin-bottom: 10px;
+    color: #343434;
+}
+
+.rodape {
+    width: 100%;
+    float: left;
+    background-color: #343434;
+    padding: 20px 8%;
+}
+
+.rodape p {
+    color: #fff;
+}
+
+.icone {
+    float: left;
+    margin-left: 5px;
+    margin-top: 7px;
+    width: 40px;
+    width: 75%;
+}
+
+.direito {
+    text-align: center;
+}
